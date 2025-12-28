@@ -22,3 +22,6 @@ The configuration is optimized for meeting shortcuts (Mute, Camera, Volume).
 ## Visuals
 <img width="1385" height="754" alt="Macropad" src="https://github.com/user-attachments/assets/15301c08-44a4-4fc0-bedc-ea94af4f8d21" />
 <img width="1385" height="754" alt="Macropad2" src="https://github.com/user-attachments/assets/e2404488-04b2-47e4-8373-c450ce2d5ce3" />
+
+# Notes on Hardware
+In the schematic, a 128x64 OLED symbol was used because a 128x32 symbol was unavailable. However, the physical build will use a 128x32 OLED display. The pinout remains the same (I2C).
