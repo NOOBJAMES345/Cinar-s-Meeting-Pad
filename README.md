@@ -6,7 +6,7 @@ The design is complete and ready for assembly once the parts are received.
 
 ## Hardware Specifications
 - **Controller:** Seeed XIAO RP2040
-- **Display:** 128x64 OLED (I2C)
+- **Display:** 128x32 OLED (I2C)
 - **Encoder:** 2-phase Rotary Encoder (No push button)
 - **Switches:** 6x Mechanical Switches (Cherry MX style)
 
