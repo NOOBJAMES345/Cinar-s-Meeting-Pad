@@ -19,6 +19,11 @@ The design is complete and ready for assembly once the parts are received.
 The firmware is built using **KMK** on **CircuitPython**. 
 The configuration is optimized for meeting shortcuts (Mute, Camera, Volume).
 
+## 📂 Project Structure
+- `/hardware`: KiCad PCB and Schematic files.
+- `/firmware`: code.py (KMK Firmware configuration).
+- `/case`: 3D design files for the enclosure.
+
 # Notes on Hardware
 In the schematic, a 128x64 OLED symbol was used because a 128x32 symbol was unavailable. However, the physical build will use a 128x32 OLED display. The pinout remains the same (I2C).
 
