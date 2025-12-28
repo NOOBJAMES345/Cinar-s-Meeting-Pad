@@ -19,6 +19,9 @@ The design is complete and ready for assembly once the parts are received.
 The firmware is built using **KMK** on **CircuitPython**. 
 The configuration is optimized for meeting shortcuts (Mute, Camera, Volume).
 
+# Notes on Hardware
+In the schematic, a 128x64 OLED symbol was used because a 128x32 symbol was unavailable. However, the physical build will use a 128x32 OLED display. The pinout remains the same (I2C).
+
 ## Visuals
 <img width="1385" height="754" alt="Macropad" src="https://github.com/user-attachments/assets/15301c08-44a4-4fc0-bedc-ea94af4f8d21" />
 <img width="1385" height="754" alt="Macropad2" src="https://github.com/user-attachments/assets/e2404488-04b2-47e4-8373-c450ce2d5ce3" />
@@ -27,5 +30,4 @@ The configuration is optimized for meeting shortcuts (Mute, Camera, Volume).
 <img width="1398" height="513" alt="image" src="https://github.com/user-attachments/assets/ccaeacb4-e8e0-418a-9f01-5b0141e72313" />
 
 
-# Notes on Hardware
-In the schematic, a 128x64 OLED symbol was used because a 128x32 symbol was unavailable. However, the physical build will use a 128x32 OLED display. The pinout remains the same (I2C).
+
