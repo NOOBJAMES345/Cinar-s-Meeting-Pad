@@ -10,6 +10,22 @@ The design is complete and ready for assembly once the parts are received.
 - **Encoder:** 2-phase Rotary Encoder (No push button)
 - **Switches:** 6x Mechanical Switches (Cherry MX style)
 
+## 📦 Bill of Materials (BOM)
+
+The following components are required for this build. The design is optimized for the parts provided by the Hack Club Blueprint grant.
+
+| Item | Quantity | Description |
+| :--- | :---: | :--- |
+| **Microcontroller** | 1 | Seeed Studio XIAO RP2040 |
+| **Display** | 1 | 128x32 OLED Display (I2C interface) |
+| **Mechanical Switches** | 6 | MX-style switches (e.g., Gateron, Cherry) |
+| **Rotary Encoder** | 1 | 3-pin Rotary Encoder (no push button) |
+| **Keycaps** | 6 | Any MX-compatible keycaps |
+| **PCB** | 1 | Custom designed PCB (files in `/hardware`) |
+| **Connectors** | 1 | USB-C Cable (for power and data) |
+
+*Note: In the schematic, a 128x64 OLED symbol was used due to library availability, but the physical design is tailored for a 128x32 display.*  
+
 ## Pinout
 - **Buttons (SW1-6):** GP1, GP2, GP4, GP3, GP0, GP28
 - **Encoder:** A: GP27, B: GP29
@@ -23,9 +39,6 @@ The configuration is optimized for meeting shortcuts (Mute, Camera, Volume).
 - `/hardware`: KiCad PCB and Schematic files.
 - `/firmware`: code.py (KMK Firmware configuration).
 - `/case`: 3D design files for the enclosure.
-
-# Notes on Hardware
-In the schematic, a 128x64 OLED symbol was used because a 128x32 symbol was unavailable. However, the physical build will use a 128x32 OLED display. The pinout remains the same (I2C).
 
 ## Visuals
 <img width="1385" height="754" alt="Macropad" src="https://github.com/user-attachments/assets/15301c08-44a4-4fc0-bedc-ea94af4f8d21" />
